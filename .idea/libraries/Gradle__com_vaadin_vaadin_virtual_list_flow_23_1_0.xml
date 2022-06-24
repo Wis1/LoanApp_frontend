@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-virtual-list-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-virtual-list-flow/23.1.0/271b18f6717c2ef1954edb91c63857f5425a6d1d/vaadin-virtual-list-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-virtual-list-flow/23.1.0/5ef0e1b0475fa236ba4d5b806139d4d5047c211b/vaadin-virtual-list-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

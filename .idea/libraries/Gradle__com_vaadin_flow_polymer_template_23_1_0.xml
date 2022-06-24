@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:flow-polymer-template:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-polymer-template/23.1.0/7230bcef0d51f6169bb2dccf1cc35c8ad5d804c8/flow-polymer-template-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-polymer-template/23.1.0/c8671b6e0cb324dbdf1ea8e6113e1ee3c72f0002/flow-polymer-template-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

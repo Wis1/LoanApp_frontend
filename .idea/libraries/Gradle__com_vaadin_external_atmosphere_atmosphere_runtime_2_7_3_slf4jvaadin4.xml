@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin.external.atmosphere:atmosphere-runtime:2.7.3.slf4jvaadin4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin.external.atmosphere/atmosphere-runtime/2.7.3.slf4jvaadin4/8fc6a864d936fa9583f31ec16067e43545bb4d7f/atmosphere-runtime-2.7.3.slf4jvaadin4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin.external.atmosphere/atmosphere-runtime/2.7.3.slf4jvaadin4/bc0bd1d5d45e5d9b436e92d21b5795dbd9f056c0/atmosphere-runtime-2.7.3.slf4jvaadin4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

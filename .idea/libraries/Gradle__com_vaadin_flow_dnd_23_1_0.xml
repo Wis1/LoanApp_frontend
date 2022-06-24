@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:flow-dnd:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-dnd/23.1.0/55e79dadd81f319753df17b0f07bd11a8604cdd1/flow-dnd-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-dnd/23.1.0/7ceedf764a91156ec7009bf68fa8f3364ef7db1d/flow-dnd-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

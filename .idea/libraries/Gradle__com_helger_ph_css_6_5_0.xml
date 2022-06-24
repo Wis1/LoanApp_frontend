@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.helger:ph-css:6.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.helger/ph-css/6.5.0/4a3b5f958da3d8c23084309ab110f380f1355f5c/ph-css-6.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.helger/ph-css/6.5.0/f72ab7dc44452d88ce4e0dddbf8a926350159090/ph-css-6.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

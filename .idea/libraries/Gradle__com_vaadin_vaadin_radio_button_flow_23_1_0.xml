@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-radio-button-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-radio-button-flow/23.1.0/60fe52e8df86d6e77f56bcc4eae16b9cd0272b18/vaadin-radio-button-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-radio-button-flow/23.1.0/b3fc150e8ec1ca8c5288d88037a7d8d3e3196fe8/vaadin-radio-button-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-renderer-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-renderer-flow/23.1.0/e22f943068ca723ba641fecdcbc588a0dbaa12d1/vaadin-renderer-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-renderer-flow/23.1.0/9f114822ac2f016a68b97d98206738b729e4a027/vaadin-renderer-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

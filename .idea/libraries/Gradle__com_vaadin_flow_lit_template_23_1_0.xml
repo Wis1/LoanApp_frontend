@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:flow-lit-template:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-lit-template/23.1.0/a53c555c62ef519bf98a5049e1e61429038d4b29/flow-lit-template-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-lit-template/23.1.0/9007ea57e66e0d0ef1519c4935dcb80882e4bab4/flow-lit-template-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

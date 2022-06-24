@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-list-box-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-list-box-flow/23.1.0/655f76d205d654e31d519dd0f80b11f25806d1cb/vaadin-list-box-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-list-box-flow/23.1.0/2987835d83bc3d01e10ce353edfa7573240e6c88/vaadin-list-box-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

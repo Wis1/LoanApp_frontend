@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-login-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-login-flow/23.1.0/54672e130ae67f6960c9c65dcffdf5a85b1d04a6/vaadin-login-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-login-flow/23.1.0/38e278fff003c18dc628052f1df1ed4a2bd5257e/vaadin-login-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

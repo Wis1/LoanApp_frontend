@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-text-field-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-text-field-flow/23.1.0/6f88fbc0fe8bc875bb6732137a8b81b9b8dd8fa5/vaadin-text-field-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-text-field-flow/23.1.0/45547ae3fd7451831d2bf85f9be8b86a2117c7e/vaadin-text-field-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-dialog-flow:23.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-dialog-flow/23.1.0/1f6911ceac2491aefa0cae12bb3442b1453c0ae5/vaadin-dialog-flow-23.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-dialog-flow/23.1.0/e516fe906bb46ce2653342871ea67e91190bec01/vaadin-dialog-flow-23.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

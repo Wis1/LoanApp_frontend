@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6eb8db5c-43d0-4d22-a5c2-d3f159b4dbfc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/loan" beforeDir="false" afterPath="$PROJECT_DIR$/loan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/loan/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/BookForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/BookForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/wis1/loan/books/domain/BookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/loan">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/loan">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="loan" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/loan" />
+  </component>
+  <component name="ProjectId" id="2AI9vGZaOPeoAHUQ1zlH4iOibZ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LoanApplication">
+    <configuration name="loan [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/loan" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="loan.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wis1.loan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wis1.loan.LoanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LoanApplication" />
+        <item itemvalue="Gradle.loan [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6eb8db5c-43d0-4d22-a5c2-d3f159b4dbfc" name="Changes" comment="" />
+      <created>1654686460601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654686460601</updated>
+      <workItem from="1654686462786" duration="1788000" />
+      <workItem from="1654688368567" duration="2996000" />
+      <workItem from="1654858353880" duration="3276000" />
+      <workItem from="1655898797680" duration="15312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
