@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static java.util.Optional.ofNullable;
 
 public class CalculateService {
 
@@ -34,8 +33,8 @@ public class CalculateService {
 
         try {
 
-            Calculate calculates= restTemplate.getForObject("http://localhost:8080/v1/calculate", Calculate.class);
-            return Arrays.asList(ofNullable(calculates).orElse(new Calculate()));
+            Calculate[] calculates= restTemplate.getForObject("http://localhost:8080/v1/calculate", Calculate[].class);
+            return Arrays.asList(calculates);
         }catch (RestClientException e) {
             return new ArrayList<>();
         }
