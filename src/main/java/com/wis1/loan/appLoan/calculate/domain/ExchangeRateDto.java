@@ -1,15 +1,16 @@
 package com.wis1.loan.appLoan.calculate.domain;
 
-
 import lombok.*;
+
+import java.util.List;
 
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Calculate {
+public class ExchangeRateDto {
 
-    private Integer amountLoan;
-    private Integer loanLength;
+    private String currency;
+    private List<RatesDto> ratesMid;
 
 }
