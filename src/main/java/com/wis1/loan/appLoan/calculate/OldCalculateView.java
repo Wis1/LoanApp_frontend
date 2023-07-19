@@ -19,7 +19,11 @@ public class OldCalculateView extends VerticalLayout {
     private Button menuButton= new Button("menu");
 
 
-    public OldCalculateView( ){
+    public OldCalculateView() {
+        grid.addComponentColumn(item -> new Button("delete", click-> {
+            calculateService.deleteCalculate(item.getId());
+            refresh();
+        }));
         add(grid, newCalculateButton, menuButton);
 
         menuButton.addClickListener(click->UI.getCurrent().navigate(""));

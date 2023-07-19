@@ -30,7 +30,7 @@ public class NewCalculateView extends HorizontalLayout {
         menuButton.addClickListener(click->UI.getCurrent().navigate(""));
 
         showCalculatesButton.addClickListener(click-> UI.getCurrent().navigate("old_calculate"));
-        saveButton.addClickListener(click->calculateService.saveCalculate(38L, textField.getValue(), textLoanLength.getValue()));
+        saveButton.addClickListener(click->calculateService.saveCalculate(60L, textField.getValue(), textLoanLength.getValue(), textArea.getValue()));
         calculate.addClickListener(click->textArea.setValue(calculateService.getCalc(textField.getValue(), textLoanLength.getValue())));
 
     }

@@ -1,6 +1,5 @@
 package com.wis1.loan.appLoan.calculate.domain;
 
-
 import lombok.*;
 
 @Setter
@@ -9,7 +8,8 @@ import lombok.*;
 @AllArgsConstructor
 public class Calculate {
 
+    private Long id;
     private Integer amountLoan;
     private Integer loanLength;
-
+    private String calculate;
 }

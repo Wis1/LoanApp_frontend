@@ -19,18 +19,16 @@ public class CalculateService {
 
     public Calculate getById(Long id){
         try {
-            Calculate calculate= restTemplate.getForObject("http://localhost:8080/v1/calculate/" +id, Calculate.class);
-            return calculate;
+            return restTemplate.getForObject("http://localhost:8080/v1/calculate/" +id, Calculate.class);
         }catch (RestClientException e){
             return null;
         }
     }
     public String getCalc(Integer amountLoan, Integer loanLength){
         try{
-            String calc= restTemplate.getForObject("http://localhost:8080/v1/calcApi/"+amountLoan+"/"+loanLength, String.class);
-            return calc;
+            return restTemplate.getForObject("http://localhost:8080/v1/calcApi/"+amountLoan+"/"+loanLength, String.class);
         }catch (RestClientException e) {
-            return new String();
+            return "";
         }
     }
 
@@ -51,14 +49,22 @@ public class CalculateService {
         }
     }
 
-    public void saveCalculate(Long clientId, Integer amount, Integer length) {
-        Calculate calculate= new Calculate();
-        calculate.setAmountLoan(amount);
-        calculate.setLoanLength(length);
+    public void saveCalculate(Long clientId, Integer amount, Integer length, String calculate) {
+        Calculate calculate1= new Calculate();
+        calculate1.setAmountLoan(amount);
+        calculate1.setLoanLength(length);
+        calculate1.setCalculate(calculate);
         URI url= UriComponentsBuilder.fromHttpUrl("http://localhost:8080/v1/calculate/"+clientId)
-                        .queryParam("amountLoan", calculate.getAmountLoan())
-                                .queryParam("loanLength", calculate.getLoanLength())
-                                        .build().encode().toUri();
-        restTemplate.postForObject(url, calculate, Calculate.class);
+                        .queryParam("amountLoan", calculate1.getAmountLoan())
+                        .queryParam("loanLength", calculate1.getLoanLength())
+                        .queryParam("calculate", calculate1.getCalculate())
+                        .build().encode().toUri();
+        restTemplate.postForObject(url, calculate1, Calculate.class);
+    }
+
+    public void deleteCalculate(Long calculateId) {
+        URI url= UriComponentsBuilder.fromHttpUrl("http://localhost:8080/v1/calculate/"+calculateId)
+                .build().encode().toUri();
+        restTemplate.delete(url);
     }
 }
