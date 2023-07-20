@@ -11,5 +11,5 @@ public class Calculate {
     private Long id;
     private Integer amountLoan;
     private Integer loanLength;
-    private String calculate;
+    private CalcResultDto calculate;
 }

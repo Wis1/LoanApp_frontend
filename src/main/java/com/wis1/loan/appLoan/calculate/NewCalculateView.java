@@ -6,6 +6,7 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.IntegerField;
 import com.vaadin.flow.component.textfield.TextArea;
 import com.vaadin.flow.router.Route;
+import com.wis1.loan.appLoan.calculate.domain.CalcResultDto;
 import com.wis1.loan.appLoan.calculate.service.CalculateService;
 
 
@@ -20,18 +21,23 @@ public class NewCalculateView extends HorizontalLayout {
     private Button saveButton= new Button("SAVE");
     private Button showCalculatesButton= new Button("show saved calculates");
     private Button menuButton= new Button("menu");
-
+    private CalcResultDto calcResultDto = new CalcResultDto();
 
     public NewCalculateView(){
         setDefaultVerticalComponentAlignment(Alignment.BASELINE);
+        getStyle().set("background","#696969");
+        getStyle().set("color","black");
         textArea.setReadOnly(true);
         add(textField, textLoanLength, calculate, textArea, saveButton, showCalculatesButton, menuButton);
 
         menuButton.addClickListener(click->UI.getCurrent().navigate(""));
 
         showCalculatesButton.addClickListener(click-> UI.getCurrent().navigate("old_calculate"));
-        saveButton.addClickListener(click->calculateService.saveCalculate(60L, textField.getValue(), textLoanLength.getValue(), textArea.getValue()));
-        calculate.addClickListener(click->textArea.setValue(calculateService.getCalc(textField.getValue(), textLoanLength.getValue())));
+        calculate.addClickListener(click-> {
+            calcResultDto = calculateService.getCalc(textField.getValue(), textLoanLength.getValue());
+            textArea.setValue(calcResultDto.toString());
+        });
 
+        saveButton.addClickListener(click->calculateService.saveCalculate(60L, textField.getValue(), textLoanLength.getValue(), calcResultDto));
     }
 }

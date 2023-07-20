@@ -18,9 +18,11 @@ public class ExchangeRatesView extends VerticalLayout {
     private Button menuButton= new Button("menu");
 
     public ExchangeRatesView(){
+        euroRate.getElement().getStyle().set("color", "black");
         HorizontalLayout hl= new HorizontalLayout();
         hl.add(euroRate, usdRate, chfRate);
         add(hl, menuButton);
+        getStyle().set("background","#696969");
         menuButton.addClickListener(click-> UI.getCurrent().navigate(""));
         euroRate.setValue(nbpService.getEuroRate());
         usdRate.setValue(nbpService.getUsdRate());
