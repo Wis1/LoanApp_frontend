@@ -23,14 +23,9 @@ public class CalcResultDto {
 
     @Override
     public String toString() {
-        return "CalcResult: " +
-                "interest_rate='" + interest_rate + '\'' +
-                ", loan_amount='" + loan_amount + '\'' +
-                ", loan_interest='" + loan_interest + '\'' +
-                ", loan_type='" + loan_type + '\'' +
-                ", monthly_payment='" + monthly_payment + '\'' +
-                ", repayment_term='" + repayment_term + '\'' +
-                ", schedule=" + schedule;
+        return  "Interest rate: " + interest_rate  +
+                ",   Loan interest: " + loan_interest +
+                ",   Monthly payment: " + monthly_payment;
     }
 }
 
