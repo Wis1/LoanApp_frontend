@@ -27,7 +27,9 @@ public class OldCalculateView extends VerticalLayout {
             calculateService.deleteCalculate(item.getId());
             refresh();
         }));
-
+        grid.getColumnByKey("amountLoan").setWidth("200px");
+        grid.getColumnByKey("calculate").setWidth("1000px");
+        grid.getColumnByKey("loanLength").setWidth("200px");
         add(grid, newCalculateButton, menuButton);
 
         menuButton.addClickListener(click->UI.getCurrent().navigate(""));
