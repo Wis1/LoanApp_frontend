@@ -3,6 +3,7 @@ package com.wis1.loan.appLoan.calculate;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dependency.StyleSheet;
+import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.IntegerField;
 import com.vaadin.flow.component.textfield.TextArea;
@@ -39,6 +40,11 @@ public class NewCalculateView extends HorizontalLayout {
             textArea.setValue(calcResultDto.toString());
         });
 
-        saveButton.addClickListener(click->calculateService.saveCalculate(60L, textField.getValue(), textLoanLength.getValue(), calcResultDto));
+        saveButton.addClickListener(click-> {
+                    calculateService.saveCalculate(60L, textField.getValue(), textLoanLength.getValue(), calcResultDto);
+                    Notification notification = new Notification("Calculate saved", 3000);
+                    notification.open();
+                }
+        );
     }
 }

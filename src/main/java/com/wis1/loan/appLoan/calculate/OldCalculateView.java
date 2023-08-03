@@ -22,13 +22,13 @@ public class OldCalculateView extends VerticalLayout {
 
     public OldCalculateView() {
         grid.getColumnByKey("id").setVisible(false);
-//        grid.addColumn(calculate->calculate.getCalculate().getMonthly_payment()).setHeader("Monthly Paymant");
+        grid.addComponentColumn(item-> new Button("View details", click-> UI.getCurrent().navigate("details")));
         grid.addComponentColumn(item -> new Button("delete", click-> {
             calculateService.deleteCalculate(item.getId());
             refresh();
         }));
         grid.getColumnByKey("amountLoan").setWidth("200px");
-        grid.getColumnByKey("calculate").setWidth("1000px");
+        grid.getColumnByKey("calculate").setWidth("800px");
         grid.getColumnByKey("loanLength").setWidth("200px");
         add(grid, newCalculateButton, menuButton);
 

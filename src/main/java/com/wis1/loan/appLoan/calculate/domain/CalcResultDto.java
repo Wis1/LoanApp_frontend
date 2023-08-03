@@ -27,6 +27,17 @@ public class CalcResultDto {
                 ",   Loan interest: " + loan_interest +
                 ",   Monthly payment: " + monthly_payment;
     }
+
+    public String toDetailsString() {
+        return "Calculation result: " + "\n\n" +
+                "interest rate = " + interest_rate + "\n" +
+                "loan amount = " + loan_amount + "\n"+
+                "loan interest = " + loan_interest + "\n"+
+                "loan type = " + loan_type + "\n"+
+                "monthly payment = " + monthly_payment + "\n"+
+                "repayment term = " + repayment_term + "\n"+
+                "schedule = " + schedule;
+    }
 }
 
 @Getter
