@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
 public class CalculateService {
 
     RestTemplate restTemplate = new RestTemplate();
@@ -20,6 +19,14 @@ public class CalculateService {
     public Calculate getById(Long id) {
         try {
             return restTemplate.getForObject("http://localhost:8080/v1/calculate/" + id, Calculate.class);
+        } catch (RestClientException e) {
+            return null;
+        }
+    }
+
+    public Calculate getCalculateById(Long id) {
+        try {
+            return restTemplate.getForObject("http://localhost:8080/v1/calculate/onecalculate/"+id, Calculate.class);
         } catch (RestClientException e) {
             return null;
         }

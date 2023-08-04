@@ -22,7 +22,10 @@ public class OldCalculateView extends VerticalLayout {
 
     public OldCalculateView() {
         grid.getColumnByKey("id").setVisible(false);
-        grid.addComponentColumn(item-> new Button("View details", click-> UI.getCurrent().navigate("details")));
+        grid.addComponentColumn(item-> {
+            String itemId = item.getId().toString();
+            return new Button("View details", click -> UI.getCurrent().navigate("details/" + itemId));
+        });
         grid.addComponentColumn(item -> new Button("delete", click-> {
             calculateService.deleteCalculate(item.getId());
             refresh();

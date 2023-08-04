@@ -42,6 +42,8 @@ public class CalcResultDto {
 
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 class ScheduleItem {
     private String balance;
     private String interest;
