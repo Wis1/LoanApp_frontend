@@ -19,7 +19,7 @@ public class CalcResultDto {
     private String loan_type;
     private String monthly_payment;
     private String repayment_term;
-    private List<ScheduleItem> schedule;
+    private List<ScheduleItemDto> schedule;
 
     @Override
     public String toString() {
@@ -40,24 +40,3 @@ public class CalcResultDto {
     }
 }
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-class ScheduleItem {
-    private String balance;
-    private String interest;
-    private String payment;
-    private int period;
-    private String principal;
-
-    @Override
-    public String toString() {
-        return "ScheduleItem: " +
-                "balance='" + balance + '\'' +
-                ", interest='" + interest + '\'' +
-                ", payment='" + payment + '\'' +
-                ", period=" + period +
-                ", principal='" + principal + '\'';
-    }
-}
