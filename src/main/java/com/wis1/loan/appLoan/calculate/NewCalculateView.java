@@ -17,9 +17,9 @@ public class NewCalculateView extends HorizontalLayout {
 
     private final CalculateService calculateService= new CalculateService();
     private final IntegerField textField= new IntegerField("Write an amount loan");
-    private final IntegerField textLoanLength= new IntegerField("Write a loan length (in months) ");
+    private IntegerField textLoanLength= new IntegerField("Write a loan length (in months) ");
     private final Button calculate= new Button("Calculate");
-    private final TextArea textArea= new TextArea();
+    private TextArea textArea= new TextArea();
     private final Button saveButton= new Button("Save");
     private final Button showCalculatesButton= new Button("Show saved calculates");
     private final Button menuButton= new Button("Menu");

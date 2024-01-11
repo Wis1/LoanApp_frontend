@@ -10,8 +10,8 @@ import com.vaadin.flow.router.Route;
 @StyleSheet("/css/style.css")
 public class MainView extends VerticalLayout {
     private final Button showActualRatesButton = new Button("Show actual rates");
-    private final Button newCalculate= new Button("New Calculate");
-    private final Button oldCalculate= new Button("Show last calculations");
+    private final Button newCalculate= new Button("New calculation");
+    private final Button oldCalculate= new Button("Show saved calculations");
 
     public MainView() {
         setDefaultHorizontalComponentAlignment(Alignment.CENTER);

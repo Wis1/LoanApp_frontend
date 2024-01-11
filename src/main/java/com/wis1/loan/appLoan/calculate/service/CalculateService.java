@@ -68,7 +68,7 @@ public class CalculateService {
                 .queryParam("loanLength", calculate1.getLoanLength())
                 .queryParam("calculate", calculate1.getCalculate())
                 .build().encode().toUri();
-        restTemplate.postForObject(url, calculate1, Calculate.class);
+        restTemplate.postForEntity(url, calculate1, Void.class);
     }
 
     public void deleteCalculate(Long calculateId) {

@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Getter
 @Setter
@@ -13,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 public class CalcResultDto {
 
+    private Long id;
     private String interest_rate;
     private String loan_amount;
     private String loan_interest;
@@ -23,7 +25,7 @@ public class CalcResultDto {
 
     @Override
     public String toString() {
-        return  "Interest rate: " + interest_rate  +
+        return "Interest rate: " + interest_rate +
                 ",   Loan interest: " + loan_interest +
                 ",   Monthly payment: " + monthly_payment;
     }
@@ -31,12 +33,18 @@ public class CalcResultDto {
     public String toDetailsString() {
         return "Calculation result: " + "\n\n" +
                 "interest rate = " + interest_rate + "\n" +
-                "loan amount = " + loan_amount + "\n"+
-                "loan interest = " + loan_interest + "\n"+
-                "loan type = " + loan_type + "\n"+
-                "monthly payment = " + monthly_payment + "\n"+
-                "repayment term = " + repayment_term + "\n"+
-                "schedule = " + schedule;
+                "loan amount = " + loan_amount + "\n" +
+                "loan interest = " + loan_interest + "\n" +
+                "loan type = " + loan_type + "\n" +
+                "monthly payment = " + monthly_payment + "\n" +
+                "repayment term = " + repayment_term + "\n" +
+                "schedule = "+ "\n" + scheduleToString();
+    }
+
+    public String scheduleToString() {
+        return schedule.stream()
+                .map(ScheduleItemDto::toString)
+                .collect(Collectors.joining("\n"));
     }
 }
 
